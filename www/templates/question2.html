@@ -1,0 +1,18 @@
+<ion-view title="Question 2" id="page2">
+  <ion-content padding="true" class="has-header">
+    <h3 id="question2-heading3" style="color:#973939;">Question 2 ?</h3>
+    <div>
+      <img src="img/9JrEGgcREODJhsyfwVxu_Nashville-Rolf-and-Daughters-restaurant_big.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <form id="question2-form9" class="list">
+      <h1>q1 --> {{q1}}</h1>
+      <ion-checkbox value ="op1" id="question2-checkbox1" ng-model="mdl.q2CB1">Option A</ion-checkbox>
+      <ion-checkbox id="question2-checkbox3" ng-model="mdl.q2CB2">Option B</ion-checkbox>
+      <ion-checkbox id="question2-checkbox2" ng-model="mdl.q2CB3">Option C</ion-checkbox>
+      
+
+    </form>
+    <a ui-sref="question3({q1:q1,q2CB1 :mdl.q2CB1,q2CB2 :mdl.q2CB2,q2CB3 :mdl.q2CB3})" id="question2-button4" class="button button-positive button-block">Next</a>
+    <a ui-sref="question1()" id="question2-button5" class="button button-positive button-block">Back</a>
+  </ion-content>
+</ion-view>

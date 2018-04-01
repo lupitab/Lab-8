@@ -1,0 +1,16 @@
+<ion-view title="Question1" id="page1">
+  <ion-content padding="true" class="has-header">
+    <h3 id="question1-heading2" style="color:#973939;">Question 1 ?</h3>
+    <form id="question1-form3" class="list">
+      <div>
+        <img src="img/FmInZxCGS1nkTa8eWNYm_comidasl.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+      <ion-radio ng-model="mdl.q1" id="question1-radio1" value='Option A'>Option A</ion-radio>
+      <ion-radio ng-model="mdl.q1" id="question1-radio2" value='Option B'>Option B</ion-radio>
+      <ion-radio ng-model="mdl.q1" id="question1-radio3" value='Option C'>Option C</ion-radio>
+      <textarea ng-model="mdl.q2" > </textarea>
+    
+    </form>
+    <a ui-sref="question2({q1:mdl.q1})" id="question1-button2" class="button button-positive button-block">Next</a>
+  </ion-content>
+</ion-view>
